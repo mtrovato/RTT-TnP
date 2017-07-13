@@ -1,0 +1,312 @@
+(CPlot) @0x341ab20
+
+ Use: MakeCanvas(name,title)
+ InitSubPad(pad,nPad)
+ InitHist(hist,xTitle,yTitle,color)
+
+
+Processing ReformatRunAllHadronicSelectionOutForTnP.C+("listData.txt","Data_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root","35.867","0.8805565355","",true)...
+input listData.txt
+outfilename Data_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root
+LUMI 35.867
+NORMTODATA 0.880557
+processforTnP 
+isData 1
+isSemiLepSelection 1
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/SingleMuon_Run2016-ReReco_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 428140
+
+ <> Data_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root created!
+
+ nentries 253655
+ neventsv  253655.00
+ReformatRunAllHadronicSelectionOutForTnP: Real Time =   6.39 seconds Cpu Time =   6.20 seconds
+(CPlot) @0x34c6160
+
+ Use: MakeCanvas(name,title)
+ InitSubPad(pad,nPad)
+ InitHist(hist,xTitle,yTitle,color)
+
+
+Processing ReformatRunAllHadronicSelectionOutForTnP.C+("listSignal.txt","Signal_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root","35.867","0.8805565355","Signal",false)...
+input listSignal.txt
+outfilename Signal_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root
+LUMI 35.867
+NORMTODATA 0.880557
+processforTnP Signal
+isData 0
+isSemiLepSelection 1
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TT_powheg_allhadrbits.root
+semilep 1
+singlelepdata 1
+intree->GetEntries() 2400943
+
+ <> Signal_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root created!
+
+ nentries 225866
+ neventsv   33754.07
+ReformatRunAllHadronicSelectionOutForTnP: Real Time =  48.28 seconds Cpu Time =  44.26 seconds
+(CPlot) @0x5e1c360
+
+ Use: MakeCanvas(name,title)
+ InitSubPad(pad,nPad)
+ InitHist(hist,xTitle,yTitle,color)
+
+
+Processing ReformatRunAllHadronicSelectionOutForTnP.C+("listBkg1.txt","Bkg1_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root","35.867","0.8805565355","Bkg",false)...
+input listBkg1.txt
+outfilename Bkg1_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root
+LUMI 35.867
+NORMTODATA 0.880557
+processforTnP Bkg
+isData 0
+isSemiLepSelection 1
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TT_powheg_allhadrbits.root
+semilep 1
+singlelepdata 1
+intree->GetEntries() 2400943
+
+ <> Bkg1_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root created!
+
+ nentries 1155901
+ neventsv  173989.42
+ReformatRunAllHadronicSelectionOutForTnP: Real Time =  47.60 seconds Cpu Time =  47.30 seconds
+(CPlot) @0x2e50040
+
+ Use: MakeCanvas(name,title)
+ InitSubPad(pad,nPad)
+ InitHist(hist,xTitle,yTitle,color)
+
+
+Processing ReformatRunAllHadronicSelectionOutForTnP.C+("listBkg2.txt","Bkg2_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root","35.867","0.8805565355","",false)...
+input listBkg2.txt
+outfilename Bkg2_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root
+LUMI 35.867
+NORMTODATA 0.880557
+processforTnP 
+isData 0
+isSemiLepSelection 1
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WWToLNuQQ_powheg_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 683
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WWTo2L2Nu_powheg_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 81
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WWTo4Q_powheg_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 0
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WZTo1L1Nu2Q_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 28974
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WZTo1L3Nu_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 49
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WZTo2L2Q_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 4306
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WZTo3LNu_powheg_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 85
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZZTo2L2Nu_powheg_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 266
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZZTo2L2Q_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 14027
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZZTo2Q2Nu_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 10
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZZto4L_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 458
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZZTo4Q_amcatnlo_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 190
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ST_s_channel_4f_leptonDecays_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 3601
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 4680
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 3284
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ST_tW_antitop_5f_NoFullyHadronicDecays_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 55550
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ST_tW_top_5f_NoFullyHadronicDecays_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 53634
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-100To200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 0
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-200To400_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 6
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-400To600_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 8
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-600To800_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 14
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-800To1200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 6
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-1200To2500_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 4
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_ZJetsToNuNu_HT-2500ToInf_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 5
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-70to100_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 410
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-100to200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 1005
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-200to400_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 7625
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-400to600_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 3331
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-600to800_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 26232
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-800to1200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 10431
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-1200to2500_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 2738
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_DYJetsToLL_M-50_HT-2500toInf_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 2328
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-70To100_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 13
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-100To200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 1227
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-200To400_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 11124
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-400To600_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 9396
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-600To800_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 38851
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-800To1200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 22521
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-1200To2500_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 27244
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_WJetsToLNu_HT-2500ToInf_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 13355
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TT_powheg_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 2400943
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TTGJets_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 343372
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TTZToLLNuNu_M-10_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 276983
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TTZToQQ_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 27757
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TTWJetsToLNu_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 288279
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_TTWJetsToQQ_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 23009
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT100to200_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 0
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT200to300_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 5
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT300to500_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 24
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT500to700_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 125
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT700to1000_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 176
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT1000to1500_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 76
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT1500to2000_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 88
+Adding ../../../baconbits/baconbits_1Tmu_2BJ_4J_RTT_Feb282017/Summer16_QCD_HT2000toInf_allhadrbits.root
+semilep 0
+singlelepdata 1
+intree->GetEntries() 51
+
+ <> Bkg2_TnPRTTTempl_1Tmu_2BJ_4J_MET40_Mar32017.root created!
+
+ nentries 899766
+ neventsv   45911.51
+ReformatRunAllHadronicSelectionOutForTnP: Real Time =  65.93 seconds Cpu Time =  62.80 seconds

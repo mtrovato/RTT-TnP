@@ -1,0 +1,45 @@
+++++++++++Fit++++++++++
+FR2 0.408499 - 0.00176013 + 0.00176013
+++++++++++Expect++++++++++
+FR2 0.412728
+#chi^{2}/dof (PassMarco) 0
+#chi^{2}/dof (FailMarco) 0
+++++Other Fitted Values++++
+Nbkg2 77993 (expect: 77948)
+*********Fitted Pass**********
+Yields (data) 31860
+Nbkg2 31860 +/- 178.492
+*********Fitted Fail**********
+Yields (data) 46133
+Nbkg2 46133 +/- 214.783
+&&&&&&&&&&&PREFIT YIELDS&&&&&&&&&&&&&&
+**********Fail**********
+h_signal, h_bkg1, h_bkg2 0 0 45776.7
+**********Pass********
+h_signal, h_bkg1, h_bkg2 0 0 32171.3
+*********TOT**********
+h_signal, h_bkg1, h_bkg2 0 0 77948
+*********TOTMC**********
+Pass, Fail TOT 32171.3 45776.7 77948
+*******Data*******
+Pass, Fail, Tot 31860 46133 77993
+**************
+&&&&&&&&&&&POSTFIT YIELDS&&&&&&&&&&&&&&
+Yields (data) 77993
+Nbkg2 77993 +/- 252.426
+DONE WITH PRINTING MY RESULTS
+
+
+NOW DUMPING fit results from fitResult->printStream
+
+  RooFitResult: minimized FCN value: -154985, estimated distance to minimum: 4.06706e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MIGRAD=0 HESSE=0 
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+                   FR2    4.0850e-01    4.0850e-01 +/-  1.76e-03  <none>
+                 Nbkg2    7.7992e+04    7.7993e+04 +/-  2.79e+02  <none>
+
+PRINT VALUE
+(status=0,FCNmin=-154985,EDM=4.06706e-08,covQual=3)
